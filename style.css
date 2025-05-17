@@ -2,7 +2,7 @@
 h1{
     font-family: "Roboto", sans-serif;
     text-align: center;
-    color: antiquewhite;
+    color: brown;
 }
 p{
     font-family: "Roboto", sans-serif;
@@ -11,4 +11,8 @@ p{
 }
 body{
     background-color: brown;
+}
+
+header{
+    background-color: antiquewhite;
 }
