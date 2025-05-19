@@ -1,18 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 h1{
     font-family: "Roboto", sans-serif;
     text-align: center;
     color: brown;
+    padding: 20px;
+}
+header{
+    color: antiquewhite;
 }
 p{
     font-family: "Roboto", sans-serif;
-    color: antiquewhite;
+    color: brown;
     font-size: 18px;
 }
 body{
-    background-color: brown;
+    background-color: rgb(130, 18, 18);
 }
 
 header{
     background-color: antiquewhite;
+}
+
+ul {
+    list-style-type: none;
+    display: flex; 
+    list-style-type: none;             
+    justify-content: space-evenly;     
+    padding: 0;              
+    margin: 0;                
+  }
+
+a { 
+    color: antiquewhite; 
+    text-decoration: none; 
+    color: #5D2E0A;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin: 0 15px;
+}
+
+
+nav{
+    background-color: rgba(236, 210, 177, 0.9);
+    padding: 15px 0;
+}
+
+.curtain{
+    box-sizing: border-box;
+    padding: 10px 15px;
+    background-color: antiquewhite;
+    border-radius: 16px;
+    width: auto;
+}
+.nahodka{
+    font-family: "Roboto", sans-serif;
+    color: brown;
+    font-size: 18px;
+}
+
+.N{
+    color: rgb(130, 18, 18);
+    text-decoration:underline;
 }
