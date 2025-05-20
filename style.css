@@ -9,7 +9,7 @@ h1{
 header{
     color: antiquewhite;
 }
-p{
+.nahodka{
     font-family: "Roboto", sans-serif;
     color: brown;
     font-size: 18px;
@@ -22,13 +22,19 @@ header{
     background-color: antiquewhite;
 }
 
-ul {
-    list-style-type: none;
-    display: flex; 
-    list-style-type: none;             
-    justify-content: space-evenly;     
-    padding: 0;              
-    margin: 0;                
+.menu {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+  }
+  .button{
+        font-family: "Roboto", sans-serif;
+        background-color: rgba(236, 210, 177, 0.9);
+        color: rgb(130, 18, 18);
+        border-radius: 5px;
+        font-size: 18px;
+        padding: 15px;
   }
 
 a { 
@@ -40,11 +46,6 @@ a {
     margin: 0 15px;
 }
 
-
-nav{
-    background-color: rgba(236, 210, 177, 0.9);
-    padding: 15px 0;
-}
 
 .curtain{
     box-sizing: border-box;
@@ -62,4 +63,43 @@ nav{
 .N{
     color: rgb(130, 18, 18);
     text-decoration:underline;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+  }
+    .button{
+        font-family: "Roboto", sans-serif;
+        background-color: rgba(236, 210, 177, 0.9);
+        color: rgb(130, 18, 18);
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 34px;
+  }
+  h1{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: brown;
+    padding: 20px;
+    font-size: 50px;
+}
+    p{
+        font-size: 20px;
+    }
+    .nahodka{
+        font-family: "Roboto", sans-serif;
+        color: brown;
+        font-size: 30px;
+    }
+    
+    .N{
+        color: rgb(130, 18, 18);
+        text-decoration:underline;
+        font-size: 30px;
+    }
 }
