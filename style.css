@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
 h1{
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -7,20 +11,20 @@ h1{
     padding: 20px;
 }
 header{
-    color: antiquewhite;
+    background-color: antiquewhite;
+    margin: 0px;
+    padding:0px;
+
 }
 .nahodka{
     font-family: "Roboto", sans-serif;
-    color: brown;
+    color: #431702;
     font-size: 18px;
 }
 body{
-    background-color: rgb(130, 18, 18);
+    background-color: #7a2902;
 }
 
-header{
-    background-color: antiquewhite;
-}
 
 .menu {
         text-align: center;
@@ -35,6 +39,7 @@ header{
         border-radius: 5px;
         font-size: 18px;
         padding: 15px;
+        margin: 0px 15px;
   }
 
 a { 
@@ -48,6 +53,7 @@ a {
 
 
 .curtain{
+    margin: 0px 15px;
     box-sizing: border-box;
     padding: 10px 15px;
     background-color: antiquewhite;
@@ -56,7 +62,7 @@ a {
 }
 .nahodka{
     font-family: "Roboto", sans-serif;
-    color: brown;
+    color: #431702;
     font-size: 18px;
 }
 
@@ -78,8 +84,8 @@ a {
         background-color: rgba(236, 210, 177, 0.9);
         color: rgb(130, 18, 18);
         border-radius: 5px;
-        padding: 10px;
-        font-size: 34px;
+        padding: 15px, 20px;
+        font-size: 32px;
   }
   h1{
     font-family: "Roboto", sans-serif;
@@ -93,7 +99,7 @@ a {
     }
     .nahodka{
         font-family: "Roboto", sans-serif;
-        color: brown;
+        color: #431702;
         font-size: 30px;
     }
     
@@ -103,3 +109,52 @@ a {
         font-size: 30px;
     }
 }
+
+@media (min-width: 1280px) {
+    h1{
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        color: brown;
+        padding: 20px;
+    }
+    header{
+        background-color: antiquewhite;
+        margin: 0px;
+        padding:0px;
+    }
+    .nahodka{
+        font-family: "Roboto", sans-serif;
+        color: #431702;
+        font-size: 18px;
+    }
+    body{
+        background-color: rgb(130, 18, 18);
+    }
+    
+    
+    .menu {
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+      }
+      .button{
+            font-family: "Roboto", sans-serif;
+            background-color: rgba(236, 210, 177, 0.9);
+            color: rgb(130, 18, 18);
+            border-radius: 5px;
+            font-size: 20px;
+            padding: 15px 120px;
+      }
+      .curtain{
+        
+        width: 45%;
+      }
+      .N{
+        font-size: 20px;
+      }
+      .button{
+        display: none;
+      }
+      
+  }
