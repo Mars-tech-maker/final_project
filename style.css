@@ -4,6 +4,10 @@
     margin: 0px;
     padding: 0px;
 }
+.Gl{
+    font-family: "Roboto", sans-serif;
+    color: #431702;
+}
 h1{
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -42,6 +46,13 @@ body{
         margin: 0px 15px;
   }
 
+  .menu1{
+    display: none;
+}
+    .button1{
+    display: none;
+}
+
 a { 
     color: antiquewhite; 
     text-decoration: none; 
@@ -73,20 +84,27 @@ a {
 
 @media (min-width: 768px) {
     .menu {
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 10px;
+display: none;
   }
     .button{
-        font-family: "Roboto", sans-serif;
-        background-color: rgba(236, 210, 177, 0.9);
-        color: rgb(130, 18, 18);
-        border-radius: 5px;
-        padding: 15px, 20px;
-        font-size: 32px;
+        display: none;
   }
+  .menu1 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: rgb(236, 210, 177, 0.9);
+    margin: 15px;
+    padding: 15px;
+
+}
+.button1{
+    font-family: "Roboto", sans-serif;
+    color: rgb(130, 18, 18);
+    font-size: 30px;
+}
   h1{
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -107,6 +125,10 @@ a {
         color: rgb(130, 18, 18);
         text-decoration:underline;
         font-size: 30px;
+    }
+    .Gl{
+        font-family: "Roboto", sans-serif;
+        color: #431702;
     }
 }
 
@@ -156,5 +178,23 @@ a {
       .button{
         display: none;
       }
-      
+      .cr{
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+      .menu1{
+        display: none;
+      }
+    .button1{
+        display: none;
+    } 
+    .Gl{
+        font-family: "Roboto", sans-serif;
+        color: #431702;
+    }
+    .NO{
+        display: none;
+    }
   }
