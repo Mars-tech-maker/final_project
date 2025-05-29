@@ -4,6 +4,9 @@
     margin: 0px;
     padding: 0px;
 }
+html {
+    scroll-behavior: smooth; /*плавная прокрутка*/
+  }
 .Gl{
     font-family: "Roboto", sans-serif;
     color: #431702;
@@ -147,6 +150,14 @@ footer{
     background-color: antiquewhite;
     color: #431702;
 }
+footer{
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    background-color: antiquewhite;
+    color: #431702;
+    font-family: "Roboto", sans-serif;
+}
 
 @media (min-width: 768px) {
     .order form {
@@ -230,6 +241,9 @@ display: none;
     margin: 15px;
     padding: 15px;
 }
+.G{
+    color: #821212;
+}
 .button1{
     font-family: "Roboto", sans-serif;
     color: rgb(130, 18, 18);
@@ -259,8 +273,23 @@ display: none;
         font-size: 30px;
     }
     .Gl{
+        font-size: 35px;
         font-family: "Roboto", sans-serif;
         color: #431702;
+    }
+    .Mnenie{
+        font-size: 35px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        color: #431702;
+    }
+    footer{
+        font-size: 30px;
+        text-align: center;
+        padding: 50px;
+        background-color: antiquewhite;
+        color: #431702;
+        font-family: "Roboto", sans-serif;
     }
 }
 
@@ -284,8 +313,6 @@ display: none;
     body{
         background-color: rgb(130, 18, 18);
     }
-    
-    
     .menu {
             text-align: center;
             display: flex;
@@ -322,6 +349,7 @@ display: none;
         display: none;
     } 
     .Gl{
+        font-size: 30px;
         font-family: "Roboto", sans-serif;
         color: #431702;
     }
@@ -383,6 +411,7 @@ display: none;
         margin-left: 40px;
     }
     .Mnenie{
+        font-size: 30px;
         text-align: center;
         font-family: "Roboto", sans-serif;
         color: #431702;
@@ -392,5 +421,19 @@ display: none;
         padding: 50px;
         background-color: antiquewhite;
         color: #431702;
+        font-family: "Roboto", sans-serif;
+
     }
+    .GL2{
+        font-size: 30px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        color: #431702;
+    }
+    .Ssilka{
+        font-family: "Roboto", sans-serif;
+        color: #431702;
+        font-size: 18px;
+    }
+    
   }
