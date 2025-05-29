@@ -1,0 +1,100 @@
+.Z{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: brown;
+    padding: 0px 20px 20px 20px;
+}
+.c{
+    height: auto;
+    width: 70%;
+    margin: 0px 15px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    background-color: antiquewhite;
+    border-radius: 16px;
+}
+.c2{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+
+  }
+.knopka{
+    display: flex;
+    justify-content: center;
+}
+.Glavnaa{
+    background-color: antiquewhite;
+    color: #431702;
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    border-radius: 15px;
+}
+.nahodka{
+    height: auto;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #431702;
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .nahodka{
+        font-family: "Roboto", sans-serif;
+        color: #431702;
+        font-size: 28px;
+    }
+    .Glavnaa{
+        font-size: 26px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+.Z{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: brown;
+    padding: 0px 20px 20px 20px;
+}
+.c{
+    width: 45%;
+    margin: 0px 15px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    background-color: antiquewhite;
+    border-radius: 16px;
+}
+.c2{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+
+  }
+.knopka{
+    display: flex;
+    justify-content: center;
+}
+.Glavnaa{
+    font-size: 18px;
+    background-color: antiquewhite;
+    color: #431702;
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    border-radius: 15px;
+}
+.nahodka{
+    font-family: "Roboto", sans-serif;
+    color: #431702;
+    font-size: 18px;
+}
+
+}

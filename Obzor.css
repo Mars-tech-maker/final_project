@@ -1,0 +1,144 @@
+.Gitara{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: #431702;
+    text-align: center;
+    padding: 15px 30px;
+}
+.Z{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: brown;
+    padding: 0px 20px 20px 20px;
+}
+.Glavnaa{
+    background-color: antiquewhite;
+    color: #431702;
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    border-radius: 15px;
+}
+.knopka{
+    display: flex;
+    justify-content: center;
+}
+.Blog{
+    font-family: "Roboto", sans-serif;
+    color: #431702;
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 0px 100px;
+    padding: 20px 0px;
+}
+.curt2{
+    border-radius: 15px;
+    margin: 15px;
+    width: auto;
+    background-color: antiquewhite;
+}
+.Akustika{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+p{  
+    font-size: 20px;
+    margin: 15px;
+    font-family: "Roboto", sans-serif;
+    color: #431702;
+}
+.menu2{
+    display: none;
+}
+.button2{
+    display: none;
+}
+@media (min-width: 768px) {
+    p{
+        font-size: 25px;  
+    }
+    .Glavnaa{
+        background-color: antiquewhite;
+        color: #431702;
+        font-family: "Roboto", sans-serif;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+    .knopka{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1280px) {
+    .No{
+        display: none;
+    }
+.Gitara{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: #431702;
+    text-align: center;
+    padding: 15px 30px;
+}
+.curt2{
+    border-radius: 15px;
+    margin: 15px;
+    width: auto;
+    background-color: antiquewhite;
+}
+.Akustika{
+    margin: 0px 0px 20px 0px ;
+    width: 40%;
+    height: auto;
+}
+.cr{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #431702;
+}
+
+.menu2 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    background-color: rgb(236, 210, 177, 0.9);
+    margin: 15px;
+    padding: 15px;
+}
+.button2{
+    font-family: "Roboto", sans-serif;
+    color: rgb(130, 18, 18);
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+}
+.Glavnaa{
+    background-color: antiquewhite;
+    color: #431702;
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    border-radius: 15px;
+}
+.knopka{
+    display: flex;
+    justify-content: center;
+}
+}
